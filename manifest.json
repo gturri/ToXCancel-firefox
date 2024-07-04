@@ -1,0 +1,19 @@
+
+{
+  "manifest_version": 2,
+  "name": "ToXCancel",
+  "version": "1.0",
+
+  "description": "Redirect to xcancel.com when the browser is on x.com",
+
+  "icons": {
+    "48": "icons/toxcancel-48.svg"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://x.com/*"],
+      "js": ["toxcancel.js"]
+    }
+  ]
+}

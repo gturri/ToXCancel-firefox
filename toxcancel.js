@@ -1,5 +1,6 @@
 var location = window.location;
 var currentLoc = location.href;
-var newLoc = currentLoc.replace("x.com", "xcancel.com");
+var newLoc = currentLoc.replace("mobile.x.com", "xcancel.com")
+	.replace("x.com", "xcancel.com");
 console.log("redirect from " + currentLoc + " to " + newLoc);
 location.replace(newLoc);

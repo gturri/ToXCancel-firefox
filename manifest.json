@@ -12,7 +12,7 @@
 
   "content_scripts": [
     {
-      "matches": ["*://x.com/*"],
+      "matches": ["*://*.x.com/*"],
       "js": ["toxcancel.js"]
     }
   ]

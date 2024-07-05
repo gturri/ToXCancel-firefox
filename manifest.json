@@ -15,5 +15,12 @@
       "matches": ["*://*.x.com/*"],
       "js": ["toxcancel.js"]
     }
-  ]
+  ],
+
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "135c3428-66bc-4b5b-9503-282dc00802e7"
+    }
+  }
 }

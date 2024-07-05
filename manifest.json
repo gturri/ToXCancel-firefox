@@ -1,4 +1,3 @@
-
 {
   "manifest_version": 3,
   "name": "ToXCancel",
@@ -20,7 +19,7 @@
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "135c3428-66bc-4b5b-9503-282dc00802e7"
+      "id": "{135c3428-66bc-4b5b-9503-282dc00802e7}"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "ToXCancel",
-  "version": "1.0",
+  "version": "1.1",
 
   "description": "Redirect to xcancel.com when the browser is on x.com",
 

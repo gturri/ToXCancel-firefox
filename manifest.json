@@ -6,7 +6,7 @@
   "description": "Redirect to xcancel.com when the browser is on x.com",
 
   "icons": {
-    "48": "icons/toxcancel-48.svg"
+    "48": "icons/toxcancel-48.png"
   },
 
   "content_scripts": [

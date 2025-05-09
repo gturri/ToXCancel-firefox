@@ -11,7 +11,10 @@
 
   "content_scripts": [
     {
-      "matches": ["*://*.x.com/*"],
+      "matches": [
+        "*://*.x.com/*",
+        "*://*.twitter.com/*"
+      ],
       "js": ["toxcancel.js"]
     }
   ],

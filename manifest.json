@@ -9,13 +9,18 @@
     "48": "icons/toxcancel-48.svg"
   },
 
-  "content_scripts": [
-    {
-      "matches": ["*://*.x.com/*"],
-      "js": ["toxcancel.js"]
-    }
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "host_permissions": [
+    "*://*.x.com/*",
+    "*://*.twitter.com/*"
   ],
 
+  "background": {
+    "scripts": ["toxcancel.js"]
+  },
 
   "browser_specific_settings": {
     "gecko": {

@@ -12,7 +12,7 @@ function redirect(requestDetails) {
 browser.webRequest.onBeforeRequest.addListener(
 	redirect,
 	{
-		urls: ["*://*.x.com/*"],
+		urls: ["*://*.x.com/*", "*://*.twitter.com/*"],
 		types: ["main_frame"],
 	},
 	["blocking"],

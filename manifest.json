@@ -14,7 +14,8 @@
     "webRequestBlocking"
   ],
   "host_permissions": [
-    "*://*.x.com/*"
+    "*://*.x.com/*",
+    "*://*.twitter.com/*"
   ],
 
   "background": {

@@ -1,2 +1,13 @@
+  _____________________________________________
+/ This repo has moved to                       \\
+| https://codeberg.org/gturri/ToXCancel-firefox |
+ \\                                             /
+  ---------------------------------------------
+         \   ^__^
+          \  (oo)\_______
+             (__)\       )\/\\
+                 ||----w |
+                 ||     ||
+
 A simple firefox extension which transparently redirects your browser to xcancel.com whenever you reach a page on x.com.
 Handy in particular if you want to read a thread but don't have an x account.
